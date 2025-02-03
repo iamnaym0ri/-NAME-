@@ -1,0 +1,246 @@
+
+.gradient-background {
+    background: linear-gradient(300deg,#ff0004,#000000,#ca3e8d);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .gradient-background2 {
+    background: linear-gradient(146deg,#000000,#ffffff,#ffffff,#000000);
+    background-size: 240% 240%;
+    animation: gradient-animation 28s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .gradient-background3 {
+    background: linear-gradient(300deg,#615555,#8c7c7c,#000000);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .gradient-background4 {
+    background: linear-gradient(300deg,#000000,#2d2828,#000000,#000000);
+    background-size: 240% 240%;
+    animation: gradient-animation 36s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.Intro{
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+      
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+    color: white;
+
+    font-size: 2rem;
+    font-family: "Poiret One", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.title0 > h1{
+    font-family: "Playwrite DK Loopet", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.name{
+    font-size: 4rem;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    padding: 50px 0px;
+}
+
+.text{
+    display: inline-block;
+    width: 50%;
+    margin: 0px 60px;
+    padding: 40px;
+    border-radius: 15%;
+    
+    font-family: "Poiret One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+.text2{
+    margin-left: auto;
+}
+
+.head2{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.introTitle{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+@media (min-width: 1201px) {
+    .text{
+        display: inline-block;
+        width: 50%;
+        margin: 0px 60px;
+        padding: 40px;
+        border-radius: 50px;
+        
+        font-family: "Poiret One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        color: white;
+    
+    }
+
+    .text2{
+        margin-left: auto;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    .contain{
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .text{
+        display: inline-block;
+        width: calc(100% - 60px);
+        margin: 50px 30px;
+        border-radius: 30px;
+        
+        font-family: "Poiret One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        color: white;
+    
+    }
+
+    .intro{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.aiTitle{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 20px 0px;
+    border-radius: 25px;
+    background-color:black;
+    width: 90%;
+
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+
+.infinity{
+    font-size: 2.5rem;
+    font-family: "Poiret One", serif;
+    font-style: normal;
+}
+
+.AI-body{
+    margin: 30px 0px;
+    padding: 100px;
+}
+
+.AI-text{
+    padding: 30px;
+    border-radius: 30px;
+
+    font-family: "Poiret One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+
+
+
