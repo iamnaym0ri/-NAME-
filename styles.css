@@ -197,6 +197,10 @@
         justify-content: center;
         text-align: center;
     }
+    
+    #AI{
+        text-align: center;
+    }
 }
 
 .aiTitle{
